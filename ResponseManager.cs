@@ -41,7 +41,7 @@ public class ResponseManager
      "Ensure that you have a vpn active whenever you use public Wi-Fi for an extra layer of protection"};
 
     public string GetResponse(string input)
-    { // 🔹 WiFi Hacking
+    { // 🔹 WiFi Hacking.
         if (input.Contains("wifi"))
             return GetRandom(WifihackResponses);
 
