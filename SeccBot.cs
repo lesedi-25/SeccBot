@@ -48,7 +48,7 @@ public class SeccBot
     }
 
 
-     private void DisplayLogo()
+    private void DisplayLogo()
     {
         Console.ForegroundColor = ConsoleColor.Cyan;
 
@@ -56,8 +56,7 @@ public class SeccBot
   ███████╗███████╗ ██████╗ ██████╗ ██████╗  ██████╗ ████████╗
   ██╔════╝██╔════╝██╔════╝██╔════╝ ██╔══██╗██╔═══██╗╚══██╔══╝
   ███████╗█████╗  ██║     ██║      ██████╔╝██║   ██║   ██║   
-  ╚════██║██╔══╝  ██║     ██║      
-██╔══██╗██║   ██║   ██║   
+  ╚════██║██╔══╝  ██║     ██║      ██╔══██╗██║   ██║   ██║   
   ███████║███████╗╚██████╗╚██████╗ ██████╔╝╚██████╔╝   ██║   
   ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═════╝  ╚═════╝    ╚═╝   
 
@@ -68,9 +67,7 @@ public class SeccBot
 ");
 
         Console.ResetColor();
-   
-}
-
+    }
     private void TypingEffect(string message)
     {
         foreach (char c in message)
@@ -81,3 +78,4 @@ public class SeccBot
         Console.WriteLine();
     }
 }
+
