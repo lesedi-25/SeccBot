@@ -38,10 +38,13 @@ public class ResponseManager
     private string[] WifihackResponses =
          { "Wi-Fi hacking involves exploiting vulnerabilities in wireless networks to gain unauthotized access.",
      "To protect against Wi-Fi hacking, use strong encryption (like WPA3) and a strong password for your Wi-Fi network connection"
-     "Ensure that you have a vpn active whenever you use public Wi-Fi for an extra layer of protection"};
+     "Ensure that you have a vpn active whenever you use public Wi-Fi for an extra layer of protection"}
 
     public string GetResponse(string input)
-    {
+    { // 🔹 WiFi Hacking
+        if (input.Contains("wifi"))
+            return GetRandom(WifihackResponses);
+
         // 🔹 FIREWALL
         if (input.Contains("firewall"))
             return GetRandom(FirewallResponses);
