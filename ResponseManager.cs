@@ -9,7 +9,7 @@ public class ResponseManager
     private Random random = new Random();
 
     // Topics
-    private string[] phishingResponses =
+    private string[] phishingResponses = 
     {
         "Phishing is when attackers trick you into giving personal information.",
         "Phishing uses fake emails or websites to steal your data.",
